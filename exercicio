@@ -1,0 +1,16 @@
+create database Escola
+use escola
+
+create table curso(
+codigo_curso int primary key,
+nome_curso varchar(50),
+id_aluno varchar(50),
+)
+
+create table professor(
+codigo_professor int primary key,
+nome_professor varchar(50),
+rm_professor varchar(50),
+)
+
+select * from aluno
